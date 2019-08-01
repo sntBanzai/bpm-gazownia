@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jboss-web xmlns="http://www.jboss.com/xml/ns/javaee"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:schemaLocation="  
+      http://www.jboss.com/xml/ns/javaee  
+      http://www.jboss.org/j2ee/schema/jboss-web_5_1.xsd">
+    <context-root>${profile-name}-${project.name}</context-root>
+    <env-entry>
+        <env-entry-name>spring.datasource.jndi-name</env-entry-name>
+        <env-entry-type>java.lang.String</env-entry-type>
+        <env-entry-value>${bpm-jndi-datasource}</env-entry-value>  
+    </env-entry>
+    
+</jboss-web>   

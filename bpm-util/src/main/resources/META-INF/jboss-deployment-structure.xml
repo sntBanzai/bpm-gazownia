@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">  
+<module name="${bpm-commons-jboss-deployment}" >
+    <resources>
+     <resource-root path="../${project.build.finalName}-pack.jar" />
+    </resources>
+    <dependencies>
+        <module name = "org.hibernate"/>
+    </dependencies>
+</module>
+</jboss-deployment-structure>  

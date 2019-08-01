@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>  
+<jboss-deployment-structure xmlns="urn:jboss:deployment-structure:1.2">  
+<deployment>  
+   <exclude-subsystems>
+      <subsystem name="jsf" />
+    </exclude-subsystems>
+    <dependencies>  
+        <module name="${bpm-commons-jboss-deployment}" />  
+    </dependencies>  
+</deployment>  
+</jboss-deployment-structure>  
